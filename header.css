@@ -1,0 +1,12 @@
+ul{
+	margin-left:25%;
+	margin-top: 50px;
+}
+ul li{
+	display: inline;
+	margin-left: 50px;
+}
+ul li a{
+	text-decoration: none;
+
+}
