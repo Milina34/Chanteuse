@@ -1,15 +1,21 @@
 body{
 	font-family: 'Open Sans', sans-serif;
 }
-ul{
+.menu ul{
 	margin:auto;
 	margin-top: 50px;
 	width: 1200px;
 }
-ul li{
+.menu ul li{
 	display: inline;
 	margin-left: 50px;
 }
-ul li a{
+.menu ul li a{
 	text-decoration: none;
+}
+h1{
+	text-align: center;
+}
+h2{
+	text-align: center;
 }
