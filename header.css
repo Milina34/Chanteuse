@@ -1,6 +1,10 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+}
 ul{
-	margin-left:25%;
+	margin:auto;
 	margin-top: 50px;
+	width: 1200px;
 }
 ul li{
 	display: inline;
@@ -8,5 +12,4 @@ ul li{
 }
 ul li a{
 	text-decoration: none;
-
 }
