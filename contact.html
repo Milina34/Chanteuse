@@ -2,12 +2,14 @@
 <html>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="contact.css">
-    <link rel="stylesheet" href=header.css />
+    <link rel="stylesheet" href=style.css />
+    <link rel="stylesheet" href=baspage.css />
+
 <head>
 	<title>Contact</title>
 </head>
 <body>
-    <div id="conteneur">
+    <div id="container">
         	<!-- 1er version du Header-->
 	<header>
 		<nav class="menu">
@@ -24,11 +26,11 @@
 		</nav>
 	</header>
 	<!-- 1er version du Header-->
-        <h1>projet audio</h1>
+        <h1>PROJET AUDIO</h1>
         <h2>CONTACT</h2>
         <hr>
-        <div class="corps">
-            <div class="identité">
+        <div class="corpscontact">
+            <div class="identitecontact">
                 <for>
                     <label for="nom">Name</label><br>
                     <input type="text" name="nom" for="texte" id="nom" required/><br>
@@ -42,9 +44,9 @@
                 
                 </for>
             </div>
-            <div class="search">
+            <div class="searchcontact">
                 <form>
-                    <input type="search" placeholder="search..."/>
+                    <input type="search" placeholder="search..." id="chercher" />
                 </form>
                 <h3>LATEST NEWS</h3>
                 <h4>welcome to our redisigned site</h4>
@@ -59,6 +61,35 @@
             </div>
             
         </div>
+        <!-- Bas de page commun -->
+    <div class="basPage">
+        <hr>
+        <div class="titreBP">           
+            <div class="article">
+                <p><strong>ABOUT OBSIDIAN</strong></p>      
+                <p>Intellectum est enim mihi quidem in multis, et maxime in me ipso, sed paulo ante in omnibus, cum M. Marcellum senatui reique publicae concessisti, commemoratis praesertim offensionibus, te auctoritatem huius ordinis dignitatemque rei publicae tuis vel doloribus vel suspicionibus anteferre. Ille quidem fructum omnis ante actae vitae hodierno die maximum cepit, N</p>
+            </div>
+            <div class="aeolus">
+                <p><strong>VIVIENNE'S OMITTED LINE</strong></p>
+                <img src="images/album-03-300x300.jpg">
+            </div>
+            <div class="dates"> 
+                <nav>
+                    <P><strong>RECENT POSTES</strong></P>
+                    <ul>
+                        <li><strong>Welcome to our redesigned website</strong></br>
+                        APRIL 1 2015</br></li>
+                        <li><strong>New tour dates posted</strong></br>
+                        APRIL 1 2015</br></li>
+                        <li><strong>Histoty of Popular Music</strong></br>
+                        APRIL 1 2015</li>
+                    </ul>
+                </nav>
+            </div>          
+        </div>
+        <hr>
+    </div>
+    <!-- Bas de page commun -->
     </div>
 
 </body>
