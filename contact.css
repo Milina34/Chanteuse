@@ -1,0 +1,23 @@
+#container {
+	background-size: 1920px 520px;
+    
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.corpscontact{
+	display: flex;
+	justify-content: space-between;
+}
+.searchcontact{
+	width: 510px;
+}
+.identitecontact{
+	width: 820px;
+}
+#commentaire{
+	width: 810px;
+	height: 300px;
+}
+#chercher{
+	width: 500px;
+}

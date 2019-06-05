@@ -1,13 +1,4 @@
-#conteneur{
-    background-image: url(images/background.jpg);
-    background-size: 100%;
-    
-    background-repeat: no-repeat;
-    background-position: top;
-    padding-left: 150px;
-    padding-right: 150px;
-    
-}
+
 hr{
     width: 1600px;
     opacity:  0.4;
