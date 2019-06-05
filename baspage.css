@@ -1,5 +1,6 @@
-.basPage{
-	background: black;	
+.basPage{	
+	width: 1250px;
+	margin-left: 20%;
 	padding-bottom: 35px;
 	padding-top: 35px;
 }
@@ -11,11 +12,11 @@
 }
 .article{
 	width: 300px;
-	color: #a9a9a9;
+	color: #F5F5F5;
 }
 .datesBP ul {
 	list-style-type: none;
-	color: #a9a9a9;
+	color: #D3D3D3;
 	margin-left: -40px;
 }
 time{
