@@ -1,8 +1,52 @@
+@font-face {
+font-family: 'Open Sans';
+src: url('Open_Sans/OpenSans-SemiBold.ttf');
+src: url('Open_Sans/OpenSans-Bold.ttf');
+src: url('Open_Sans/OpenSans-Regular.ttf');
+src: url('Open_Sans/OpenSans-Light.ttf');
+}
 body{
+	background-image: url('photos/background.jpg');
+	
+	background-size: 1920px 1920px;
+    background-repeat: no-repeat;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: black
+}
+#container{
+	padding-left: 140px;
+	padding-right: 140px;
+	font-family: 'Open Sans', sans serif;
+	color: white;
+	background-color: black;
+	opacity: 0.7;
+}
+.menu ul{
+	margin-right:auto;
+	margin-left: auto;
+	margin-top: 0px;
+	padding-top: 50px;
+	text-align: center;
 
 }
-
-.textright{
+.menu ul li{
 	display: inline;
-	justify-content: right;
+	margin-left: 50px;
+	
+}
+.menu ul li a{
+	text-decoration: none;
+	color: #a9a9a9;
+}
+.menu ul li a:hover{
+	color: white;
+}
+h1{
+	text-align: center;
+	font-weight: bold;
+}
+h2{
+	text-align: center;
 }
