@@ -1,0 +1,19 @@
+.imageBio{
+	text-align: center;
+}
+.texteBio{
+	width: 800px;
+	margin: auto;
+}
+.hrBio{ 
+	margin-bottom: 35px;
+}
+.backBio1{
+	 
+	padding-bottom: 35px;
+
+}
+.texteBio{
+	color: #a9a9a9;
+	background: black;
+}

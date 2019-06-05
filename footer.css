@@ -1,0 +1,13 @@
+footer{
+	text-align: center;
+	background: black;
+	color: white;
+	word-spacing: 5px;
+	padding: 30px;
+}
+.icones{
+	font-size: 1.2em;
+	word-spacing: 20px;
+	padding-bottom: 20px;
+}
+
