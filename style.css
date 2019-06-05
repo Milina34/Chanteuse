@@ -5,24 +5,43 @@ src: url('Open_Sans/OpenSans-Bold.ttf');
 src: url('Open_Sans/OpenSans-Regular.ttf');
 src: url('Open_Sans/OpenSans-Light.ttf');
 }
-#container{
+body{
 	background-image: url('photos/background.jpg');
-	font-family: 'Open_Sans', sans serif;
+	
+	background-size: 1920px 1920px;
+    background-repeat: no-repeat;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+
+}
+#container{
 	padding-left: 140px;
 	padding-right: 140px;
-}
+	font-family: 'Open Sans', sans serif;
+	color: white;
+	background-color: black;
+	opacity: 0.7;
 }
 .menu ul{
-	margin:auto;
-	margin-top: 50px;
-	width: 1200px;
+	margin-right:auto;
+	margin-left: auto;
+	margin-top: 0px;
+	padding-top: 50px;
+	text-align: center;
+
 }
 .menu ul li{
 	display: inline;
 	margin-left: 50px;
+	
 }
 .menu ul li a{
 	text-decoration: none;
+	color: #a9a9a9;
+}
+.menu ul li a:hover{
+	color: white;
 }
 h1{
 	text-align: center;
