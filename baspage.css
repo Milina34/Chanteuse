@@ -1,15 +1,13 @@
 .basPage{
-	background: black;
-	width: 1250px;
-	margin-left: 20%;
+	background: black;	
 	padding-bottom: 35px;
 	padding-top: 35px;
 }
 .titreBP{
 	width: 1000px;
-	display: inline-flex;
+	display:flex;
 	justify-content: space-between;
-	margin-left: 125px;
+	margin: auto;
 }
 .article{
 	width: 300px;
@@ -33,6 +31,7 @@ hr{
 	background: black;
 	width: 1000px;
 	margin-top: 35px;
+	margin:auto;
 	 
 }
 #p{
