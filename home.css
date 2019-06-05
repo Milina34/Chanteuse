@@ -9,3 +9,14 @@ head{
 body{
 	
 }
+
+
+.imageshome{
+	display: flex;
+	justify-content: space-between;
+}
+
+.dateshome{
+	justify-content: right;
+
+}
