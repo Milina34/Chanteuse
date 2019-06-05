@@ -11,3 +11,22 @@ src: url('Open_Sans/OpenSans-Light.ttf');
 	padding-left: 140px;
 	padding-right: 140px;
 }
+}
+.menu ul{
+	margin:auto;
+	margin-top: 50px;
+	width: 1200px;
+}
+.menu ul li{
+	display: inline;
+	margin-left: 50px;
+}
+.menu ul li a{
+	text-decoration: none;
+}
+h1{
+	text-align: center;
+}
+h2{
+	text-align: center;
+}
