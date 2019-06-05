@@ -1,0 +1,13 @@
+@font-face {
+font-family: 'Open Sans';
+src: url('Open_Sans/OpenSans-SemiBold.ttf');
+src: url('Open_Sans/OpenSans-Bold.ttf');
+src: url('Open_Sans/OpenSans-Regular.ttf');
+src: url('Open_Sans/OpenSans-Light.ttf');
+}
+#container{
+	background-image: url('photos/background.jpg');
+	font-family: 'Open_Sans', sans serif;
+	padding-left: 140px;
+	padding-right: 140px;
+}
