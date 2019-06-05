@@ -1,0 +1,32 @@
+@font-face {
+font-family: 'Open Sans';
+src: url('Open_Sans/OpenSans-SemiBold.ttf');
+src: url('Open_Sans/OpenSans-Bold.ttf');
+src: url('Open_Sans/OpenSans-Regular.ttf');
+src: url('Open_Sans/OpenSans-Light.ttf');
+}
+#container{
+	background-image: url('photos/background.jpg');
+	font-family: 'Open_Sans', sans serif;
+	padding-left: 140px;
+	padding-right: 140px;
+}
+}
+.menu ul{
+	margin:auto;
+	margin-top: 50px;
+	width: 1200px;
+}
+.menu ul li{
+	display: inline;
+	margin-left: 50px;
+}
+.menu ul li a{
+	text-decoration: none;
+}
+h1{
+	text-align: center;
+}
+h2{
+	text-align: center;
+}
