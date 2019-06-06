@@ -1,22 +1,159 @@
+/*style css*/
+@font-face {
+font-family: 'Open Sans';
+src: url('Open_Sans/OpenSans-SemiBold.ttf');
+src: url('Open_Sans/OpenSans-Bold.ttf');
+src: url('Open_Sans/OpenSans-Regular.ttf');
+src: url('Open_Sans/OpenSans-Light.ttf');
+}
+body{
+	background-image: url('photos/background.jpg');	
+	background-size: 1920px 1920px;
+    background-repeat: no-repeat;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: black
+}
+#container{
+	padding-left: 140px;
+	padding-right: 140px;
+	font-family: 'Open Sans', sans serif;
+	color: white;
+	background-color: black;
+	opacity: 0.7;
+}
 header{
 
 }
-
-head{
+.menu ul{
+	margin-right:auto;
+	margin-left: auto;
+	margin-top: 0px;
+	
+	text-align: center;
 
 }
-
-body{
+.menu ul li{
+	display: inline;
+	margin-left: 50px;
 	
 }
+.menu ul li a{
+	text-decoration: none;
+	color: #a9a9a9;
+}
+.menu ul li a:hover{
+	color: white;
+}
+h1{
+	text-align: center;
+	font-weight: bold;
+}
+h2{
+	text-align: center;
+}
 
+/*style css*/
+/*bas page*/
+.basPage{	
+	
+	padding-bottom: 35px;
+	padding-top: 35px;
+}
+.titreBP{
+	display:flex;
+	justify-content: space-between;
+	margin: auto;
+}
+.article{
+	width: 300px;
+	color: #F5F5F5;
+}
+.datesBP ul {
+	list-style-type: none;
+	color: #D3D3D3;
+	margin-left: -40px;
+}
+time{
+	color: #4c4a4a;
+	font-size: 0.8em;
+}
+
+.titreBP p{
+	color: white;
+}
+hr{
+	border-color: #4c4a4a;
+	background: black;
+	margin-top: 35px;
+	margin:auto;
+	 
+}
+#p{
+	color:#666363; 
+}
+/*bas page*/
+/*footer*/
+footer{
+	text-align: center;
+	background: black;
+	color: white;
+	word-spacing: 5px;
+	padding: 30px;
+}
+.icones{
+	font-size: 1.2em;
+	word-spacing: 20px;
+	padding-bottom: 20px;
+}
+i{
+	color: white;
+
+}
+/*footerfin*/
+h1{
+	font-size: 80px;
+	font-weight: lighter;
+	padding-top: 150px;
+	margin-top: 0px;
+}
+
+h2{
+	padding-bottom: 150px;
+}
 
 .imageshome{
 	display: flex;
 	justify-content: space-between;
+	padding-bottom: 100px;
+	opacity: 1;
+}	
+.vid{
+	opacity: 1;
+}
+.dateshome{
+
 }
 
-.dateshome{
-	justify-content: right;
+#text{
+	font-size: 80px;
+}
+/*tableau*/
+table {
+  	border-collapse: collapse;
+    border-spacing: 2px;
+    width: 1650px;
+ 	text-align: -webkit-left;
+}
+caption {
+	text-align: left;
+	padding-bottom: 15PX;
+	font-size: 1.5em;
+	font-weight: bold;
+}
 
+td {
+	border-bottom: solid;
+	border-width: 1.5px;
 }
