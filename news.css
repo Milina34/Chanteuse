@@ -27,7 +27,7 @@ body{
 	margin-right:auto;
 	margin-left: auto;
 	margin-top: 0px;
-	padding-top: 50px;
+	
 	text-align: center;
 
 }
@@ -49,4 +49,57 @@ h1{
 }
 h2{
 	text-align: center;
+}
+
+
+
+
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+.menu ul{
+	margin-left:auto;
+	margin-right: auto;
+	padding-top: 40px;
+	text-align: center;
+}
+.menu ul li{
+	display: inline;
+	padding:20px;
+}
+.menu ul li a{
+	text-decoration: none;
+}
+h1{
+	text-align: center;
+	padding-top: 40px;
+	font-size: 80px;
+}
+h2{
+	text-align: center;
+}
+hr{
+	
+}
+header{
+	height: 400px;
+}
+
+
+
+
+footer{
+	text-align: center;
+	background: black;
+	color: white;
+	word-spacing: 5px;
+	padding: 30px;
+}
+.icones{
+	font-size: 1.2em;
+	word-spacing: 20px;
+	padding-bottom: 20px;
+}
+i{
+	color: white;
 }

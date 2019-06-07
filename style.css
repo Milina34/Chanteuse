@@ -13,7 +13,7 @@ body{
     margin-top: 0px;
     margin-left: 0px;
     margin-right: 0px;
-
+    background-color: black
 }
 #container{
 	padding-left: 140px;
@@ -27,7 +27,7 @@ body{
 	margin-right:auto;
 	margin-left: auto;
 	margin-top: 0px;
-	padding-top: 50px;
+	
 	text-align: center;
 
 }
